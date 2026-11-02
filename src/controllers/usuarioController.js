@@ -8,8 +8,6 @@ async function cadastrar(req, res) {
   let senha = data.senha;
 
   console.log(nome);
-  console.log(email);
-  console.log(senha);
 
   if (nome == undefined || email == undefined || senha == undefined) {
     return res
