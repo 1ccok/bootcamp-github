@@ -7,6 +7,8 @@ async function cadastrar(req, res) {
   let email = data.email;
   let senha = data.senha;
 
+  console.log(nome);
+
   if (nome == undefined || email == undefined || senha == undefined) {
     return res
       .status(400)
